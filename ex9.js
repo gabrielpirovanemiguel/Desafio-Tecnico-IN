@@ -1,3 +1,4 @@
+import printConsoleScreen from "./printConsoleScreen.js";
 function compactarTexto(texto) {
     let charAtual = texto[0];
     let contadorChar = 1;
@@ -14,3 +15,5 @@ function compactarTexto(texto) {
     textoFinal += charAtual + contadorChar;
     return textoFinal
 } 
+const textoEntrada = "hhhhkktt";
+printConsoleScreen(`Texto inicial: ${textoEntrada}\nTexto compactado: ${compactarTexto(textoEntrada)}`);

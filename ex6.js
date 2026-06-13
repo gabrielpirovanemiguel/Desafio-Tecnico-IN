@@ -6,3 +6,5 @@ function authors(array) {
     });
     return authorsObject;
 }
+console.log(authors(booksByCategory));
+alert('Resultado no console.');
